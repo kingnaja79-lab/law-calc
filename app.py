@@ -79,10 +79,10 @@ class ChildSupportCalculator:
         }
 
 # --- 2. 화면 구성 (UI) ---
-st.set_page_config(page_title="2021 양육비 계산기", page_icon="⚖️")
+st.set_page_config(page_title="창원.경남 나자현 변호사의 자녀양육비 계산기", page_icon="⚖️")
 
-st.title("⚖️ 2021년 양육비 산정기준표 계산기")
-st.markdown("서울가정법원 2021년 양육비 산정기준표 해설서에 기반한 자동 계산기입니다.")
+st.title("⚖️ 서울가정법원 공표 2021년 양육비 산정기준표 계산기")
+st.markdown("서울가정법원 공표 2021년 양육비 산정기준표 해설서에 기반한 자동 계산기입니다.")
 
 with st.container():
     col1, col2 = st.columns(2)
